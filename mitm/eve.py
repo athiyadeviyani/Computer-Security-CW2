@@ -84,20 +84,24 @@ elif args.break_heart:
 
 # ======================================= CUSTOM MODE =======================================
 elif args.custom:
+
+    dialog.chat('Alice said: "{}"'.format(received_from_alice))
+
     dialog.prompt('Input what you would like Alice to say to Bob')
     alice_send = input()
 
     # alice encrypts message and sends to bob
     encrypt_and_send(alice_send, alice_aes, alice_socket)
-    dialog.chat('Alice said: "{}"'.format(alice_send))
+    
 
     dialog.info('Message sent! Waiting for reply...')
     received_from_bob = receive_and_decrypt(alice_aes, alice_socket)
+    dialog.chat('Bob said: "{}"'.format(received_from_bob))
 
     dialog.prompt('Input what you would like Bob to say to Alice')
     bob_send = input()
 
-    dialog.chat('Bob said: "{}"'.format(received_from_bob))
+    
 
     encrypt_and_send(bob_send, bob_aes, bob_socket)
 
