@@ -1,0 +1,3 @@
+How much is 1709906 + 42?
+
+Please submit a file named 'solution' containing only the encryption of the correct answer to the cw1 exercise using the 'submit' DICE tool.
