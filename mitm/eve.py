@@ -27,7 +27,7 @@ dialog = Dialog('print')
 print('PRETENDING TO BE ALICE...')
 player1 = 'alice' # establishing a socket pretending im alice
 socket1, aes1 = setup(player1, BUFFER_DIR, BUFFER_FILE_NAME)
-os.rename(BUFFER_DIR + BUFFER_FILE_NAME, BUFFER_DIR + "bob_and_eve_buffer")
+os.rename(BUFFER_DIR + BUFFER_FILE_NAME, BUFFER_DIR + "new_buffer")
 print('SOCKETS FOR COMMUNICATION WITH BOB ESTABLISHED!')
 
 # sockets for communication with alice (I AM BOB)
@@ -55,7 +55,7 @@ if args.relay:
 
     encrypt_and_send(received_from_bob, aes2, socket2)
 
-    tear_down(socket1, BUFFER_DIR, "bob_and_eve_buffer")
+    tear_down(socket1, BUFFER_DIR, "new_buffer")
     tear_down(socket2, BUFFER_DIR, BUFFER_FILE_NAME)
 
 elif args.break_heart:
@@ -73,7 +73,7 @@ elif args.break_heart:
     encrypt_and_send(received_from_bob, aes2, socket2)
 
 
-    tear_down(socket1, BUFFER_DIR, "bob_and_eve_buffer")
+    tear_down(socket1, BUFFER_DIR, "new_buffer")
     tear_down(socket2, BUFFER_DIR, BUFFER_FILE_NAME)
 
 elif args.custom:
@@ -94,5 +94,5 @@ elif args.custom:
 
     encrypt_and_send(to_send, aes2, socket2)
 
-    tear_down(socket1, BUFFER_DIR, "bob_and_eve_buffer")
+    tear_down(socket1, BUFFER_DIR, "new_buffer")
     tear_down(socket2, BUFFER_DIR, BUFFER_FILE_NAME)
