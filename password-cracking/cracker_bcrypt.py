@@ -7,7 +7,7 @@ password = b"123456"
 def writeToFile(s):
     f = open(write_file, "w")
     for c in s:
-        line = str(c) + " "
+        line = str(c) + "\n"
         f.write(line)
     f.close()
 
