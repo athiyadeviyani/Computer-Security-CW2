@@ -2,7 +2,7 @@
 Defense and attack of components that interact with security-critical parts of users’ workflow
 <br>
 <br>
-List of submissions
+## List of Submission Commands
 ```
 $ submit cs cw2 fingerprint                                                       -- FEEDBACK AVAILABLE
 $ submit cs cw2 solution                                                          -- FEEDBACK AVAILABLE
