@@ -10,13 +10,9 @@ $ mailx -r luke.skywalker@starwars.com -s "s1709906" cw-2@ed.ac.uk [CTRL+D]     
 $ submit cs cw2 md5-cracked.txt salt-cracked.txt bcrypt-lines.txt                 -- NO FEEDBACK AVAILABLE
 $ submit cs cw2 eve.py                                                            -- FEEDBACK AVAILABLE
 ```
+
 ## Sections
-The assignment consists of four parts:
-<br>
 1. Asymmetric Encryption with GPG
-<br>
 2. Spoofing Email Sender
-<br>
 3. Password Cracking
-<br>
 4. (wo)Man in the Middle Attack
