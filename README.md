@@ -11,6 +11,8 @@ $ submit cs cw2 md5-cracked.txt salt-cracked.txt bcrypt-lines.txt               
 $ submit cs cw2 eve.py                                                            -- FEEDBACK AVAILABLE
 ```
 ## Sections
+The assignment consists of four parts:
+<br>
 1. Asymmetric Encryption with GPG
 <br>
 2. Spoofing Email Sender
