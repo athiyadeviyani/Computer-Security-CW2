@@ -1,7 +1,9 @@
 # Computer-Security-CW2
-Defense and attack of components that interact with security-critical parts of users’ workflow
-<br>
-<br>
+Defense and attack of components that interact with security-critical parts of users’ workflow.
+<b>Course Name:</b> Computer Security
+<br><b>Focus:</b> bash, python
+<br><b>Final Mark:</b> 100%
+
 ## List of Submission Commands
 ```
 $ submit cs cw2 fingerprint                                                       -- FEEDBACK AVAILABLE
