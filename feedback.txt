@@ -1,0 +1,30 @@
+Hello s1709906,
+
+Given the size of the class we have to rely on auto-graders. This
+coursework being newly designed for this year, our autograders had not
+been tested extensively before. For this reason, there were some bugs
+and some marks initially sent out were not right. After sending out the
+CW2 feedback on April 5, several of you inquired about your marks giving
+us feedback that helped us fix our autograders. The TAs have been
+working on this over the past few days and have corrected the issues
+reported. Below you will find your actual CW2 score.
+
+
+- GPG: 20 out of 20
+
+- Email spoofing: 10 out of 10
+
+- Password cracking: 10 out of 10, 10 out of 10, 10 out of 10
+
+- MitM attack: 40 out of 40
+
+- Late submission penalties: 0
+
+This brings your total score for CW2 to: 100 out of 100.
+
+
+I hope you are well and that you are keeping in good spirit.
+
+Keep safe!
+
+Myrto
